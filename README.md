@@ -10,6 +10,7 @@ This is a simple calculator with a colorful design.
 - [ ] Rounding of real numbers
 - [ ] Error handling
 - [ ] Responsive font size
+- [ ] Unary operations
 
 #### Screenshots:
 

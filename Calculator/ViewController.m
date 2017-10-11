@@ -33,8 +33,8 @@ NSString* currentNumber = @"";
 }
 
 - (IBAction)operate:(UIButton *)sender {
-    double myDouble = [currentNumber doubleValue];
-    if (myDouble) {
+    if (![currentNumber  isEqual: @""]) {
+        double myDouble = [currentNumber doubleValue];
         [self.calculator pushOperand:myDouble];
     }
     currentNumber = @"";
@@ -44,8 +44,10 @@ NSString* currentNumber = @"";
 }
 
 - (IBAction)calculate {
-    double myDouble = [currentNumber doubleValue];
-    [self.calculator pushOperand:myDouble];
+    if (![currentNumber  isEqual: @""]) {
+        double myDouble = [currentNumber doubleValue];
+        [self.calculator pushOperand:myDouble];
+    }
     self.outDisplay.text = self.inDisplay.text;
     double res = [self.calculator performOperation];
     
@@ -57,17 +59,13 @@ NSString* currentNumber = @"";
 }
 
 - (void)updateDisplay:(NSString *)valueToDisplay {
-    if ([self.inDisplay.text  isEqual: @"0"]) {
-        self.inDisplay.text = valueToDisplay;
-    } else {
         self.inDisplay.text = [self.inDisplay.text stringByAppendingString: valueToDisplay];
-    }
 }
 
 - (IBAction)clean {
     currentNumber = @"";
     [self.calculator clearProgramStack];
-    self.inDisplay.text = @"0";
+    self.inDisplay.text = @"";
 }
 
 - (void)viewDidLoad {
