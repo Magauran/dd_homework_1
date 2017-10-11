@@ -46,6 +46,9 @@
     }
     if ([topOfStack isKindOfClass:[NSNumber class]]) {
         result = [topOfStack doubleValue];
+        while (result == 0) {
+            result = [self popProgramStack:stack];
+        }
     } else if ([topOfStack isKindOfClass:[NSString class]]) {
         NSString *operation = topOfStack;
         
