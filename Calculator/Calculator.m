@@ -90,6 +90,7 @@
     [self.programStack addObject:operandObject];
 }
 
+// 3 x (3 x 9 / 9) error
 
 - (void) pushOperation:(NSString*) operation {
     // http://5fan.ru/wievjob.php?id=6225
@@ -105,7 +106,7 @@
         }
         [self.operationStack removeLastObject];
     } else if ([[self.operationDictionary objectForKey:operation] intValue] <= [[self.operationDictionary objectForKey:[self.operationStack lastObject]] intValue]) {
-        while ([self.operationStack count] != 0) {
+        while ([self.operationStack count] != 0 && [[self.operationDictionary objectForKey:operation] intValue] <= [[self.operationDictionary objectForKey:[self.operationStack lastObject]] intValue]) {
             id topOfStack = [self.operationStack lastObject];
             if (topOfStack) {
                 [self.programStack addObject:topOfStack];
@@ -129,6 +130,7 @@
 
 - (void) clearProgramStack {
     [self.programStack removeAllObjects];
+    [self.operationStack removeAllObjects];
 }
 
 @end

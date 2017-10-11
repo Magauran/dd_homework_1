@@ -48,6 +48,7 @@ NSString* currentNumber = @"";
         double myDouble = [currentNumber doubleValue];
         [self.calculator pushOperand:myDouble];
     }
+    NSLog(@"%@\n", self.inDisplay.text);
     self.outDisplay.text = self.inDisplay.text;
     double res = [self.calculator performOperation];
     
