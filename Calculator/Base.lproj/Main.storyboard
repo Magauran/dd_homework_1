@@ -46,10 +46,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HpT-5I-Lkr">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHZ-Hh-IB2">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHZ-Hh-IB2">
                                                 <rect key="frame" x="0.0" y="0.0" width="80.5" height="80"/>
                                                 <color key="backgroundColor" red="0.20552746801571717" green="0.32140060099187073" blue="0.39821938451776651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -57,10 +57,10 @@
                                                     <action selector="clean" destination="BYZ-38-t0r" eventType="touchUpInside" id="5dW-Gm-rOj"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfB-Pf-nzj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfB-Pf-nzj">
                                                 <rect key="frame" x="80.5" y="0.0" width="79.5" height="80"/>
                                                 <color key="backgroundColor" red="0.20552746801571717" green="0.32140060099187073" blue="0.39821938451776651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="(">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -68,10 +68,10 @@
                                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y6C-fB-pSP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0h-eU-WO5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0h-eU-WO5">
                                                 <rect key="frame" x="160" y="0.0" width="80.5" height="80"/>
                                                 <color key="backgroundColor" red="0.20552746801571717" green="0.32140060099187073" blue="0.39821938451776651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title=")">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -79,10 +79,10 @@
                                                     <action selector="operate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qWO-b7-Rjn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IR-U8-Jzc">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IR-U8-Jzc">
                                                 <rect key="frame" x="240.5" y="0.0" width="79.5" height="80"/>
                                                 <color key="backgroundColor" red="0.98347981770000004" green="0.2237413194" blue="0.27785915799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -103,10 +103,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UDi-BW-yY2">
                                         <rect key="frame" x="0.0" y="80" width="320" height="80.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2a-jH-2Er">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2a-jH-2Er">
                                                 <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
                                                 <color key="backgroundColor" red="0.5480298892667127" green="0.82745098039999998" blue="0.27682706546422531" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -114,10 +114,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfb-8e-BUe"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8W-Jt-tWj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8W-Jt-tWj">
                                                 <rect key="frame" x="80.5" y="0.0" width="79.5" height="80.5"/>
                                                 <color key="backgroundColor" red="0.5480298892667127" green="0.82745098039999998" blue="0.27682706546422531" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -125,10 +125,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDP-6Q-dYy"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCX-SK-6L1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCX-SK-6L1">
                                                 <rect key="frame" x="160" y="0.0" width="80.5" height="80.5"/>
-                                                <color key="backgroundColor" red="0.5480298892667127" green="0.82745098039999998" blue="0.27682706546422531" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <color key="backgroundColor" red="0.60444444444444445" green="0.84705882352941175" blue="0.34509803921568633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -136,10 +136,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sg4-5e-6PC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1M4-YZ-aY1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1M4-YZ-aY1">
                                                 <rect key="frame" x="240.5" y="0.0" width="79.5" height="80.5"/>
                                                 <color key="backgroundColor" red="0.98347981770833337" green="0.22374131944444445" blue="0.2778591579861111" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="×">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -158,21 +158,27 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lb4-OT-N9V">
                                         <rect key="frame" x="0.0" y="160.5" width="320" height="80.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNO-i4-uZr">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNO-i4-uZr">
                                                 <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
                                                 <color key="backgroundColor" red="0.94861680269241333" green="0.77522786458333337" blue="0.16560872395833334" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="4">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="selected">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wEn-yh-d0S"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wix-bD-7Z1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wix-bD-7Z1">
                                                 <rect key="frame" x="80.5" y="0.0" width="79.5" height="80.5"/>
-                                                <color key="backgroundColor" red="0.94861680269241333" green="0.77522786458333337" blue="0.16560872395833334" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <color key="backgroundColor" red="0.95883673429489136" green="0.80841284990310669" blue="0.25070929527282715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -180,10 +186,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YQD-zc-7iK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcx-Xv-FA1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcx-Xv-FA1">
                                                 <rect key="frame" x="160" y="0.0" width="80.5" height="80.5"/>
                                                 <color key="backgroundColor" red="0.94861680269241333" green="0.77522786458333337" blue="0.16560872395833334" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -191,10 +197,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ghl-Rp-Cak"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmH-n4-gxV">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmH-n4-gxV">
                                                 <rect key="frame" x="240.5" y="0.0" width="79.5" height="80.5"/>
                                                 <color key="backgroundColor" red="0.98347981770000004" green="0.2237413194" blue="0.27785915799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="−">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -213,10 +219,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bIf-Ng-s8d">
                                         <rect key="frame" x="0.0" y="241" width="320" height="80"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3l2-SW-M1n">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3l2-SW-M1n">
                                                 <rect key="frame" x="0.0" y="0.0" width="80.5" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -224,10 +230,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GPv-Ja-iOp"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxj-Vk-Dpb">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxj-Vk-Dpb">
                                                 <rect key="frame" x="80.5" y="0.0" width="79.5" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -235,10 +241,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hTV-ZN-Axc"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zdg-hL-lMw">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zdg-hL-lMw">
                                                 <rect key="frame" x="160" y="0.0" width="80.5" height="80"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -246,10 +252,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uip-bk-0jK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0S-BZ-dnM">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0S-BZ-dnM">
                                                 <rect key="frame" x="240.5" y="0.0" width="79.5" height="80"/>
                                                 <color key="backgroundColor" red="0.98347981770000004" green="0.2237413194" blue="0.27785915799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -268,10 +274,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyb-U3-sLy">
                                         <rect key="frame" x="0.0" y="321" width="320" height="79.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydS-i8-QAD">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydS-i8-QAD">
                                                 <rect key="frame" x="0.0" y="0.0" width="80.5" height="79.5"/>
                                                 <color key="backgroundColor" red="0.29686525933517599" green="0.5872355020583705" blue="0.73074001736111116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -279,10 +285,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f0X-hG-lGb"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acf-pR-Wdr">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acf-pR-Wdr">
                                                 <rect key="frame" x="80.5" y="0.0" width="79.5" height="79.5"/>
                                                 <color key="backgroundColor" red="0.29686525933517599" green="0.5872355020583705" blue="0.73074001736111116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -290,10 +296,10 @@
                                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mty-q5-Nu9"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H66-ES-aT6">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H66-ES-aT6">
                                                 <rect key="frame" x="160" y="0.0" width="160" height="79.5"/>
                                                 <color key="backgroundColor" red="0.98347981770000004" green="0.2237413194" blue="0.27785915799999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="40"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="42"/>
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
@@ -338,6 +344,25 @@
                     <connections>
                         <outlet property="inDisplay" destination="fBB-ej-3RF" id="JR9-tW-SLP"/>
                         <outlet property="outDisplay" destination="6lj-8E-DK8" id="TxP-zN-0fc"/>
+                        <outletCollection property="allButtons" destination="RHZ-Hh-IB2" id="Jdo-Cp-XaB"/>
+                        <outletCollection property="allButtons" destination="MfB-Pf-nzj" id="x3O-OO-MiB"/>
+                        <outletCollection property="allButtons" destination="X0h-eU-WO5" id="tOQ-zm-wAR"/>
+                        <outletCollection property="allButtons" destination="0IR-U8-Jzc" id="WmE-RK-EAw"/>
+                        <outletCollection property="allButtons" destination="l2a-jH-2Er" id="HLz-7d-pSU"/>
+                        <outletCollection property="allButtons" destination="W8W-Jt-tWj" id="OWT-dR-b7h"/>
+                        <outletCollection property="allButtons" destination="sCX-SK-6L1" id="dHU-tH-rrJ"/>
+                        <outletCollection property="allButtons" destination="1M4-YZ-aY1" id="sdf-Ky-lVn"/>
+                        <outletCollection property="allButtons" destination="rNO-i4-uZr" id="26w-vo-rj0"/>
+                        <outletCollection property="allButtons" destination="wix-bD-7Z1" id="HKE-UQ-YML"/>
+                        <outletCollection property="allButtons" destination="gcx-Xv-FA1" id="FXm-fO-mpj"/>
+                        <outletCollection property="allButtons" destination="QmH-n4-gxV" id="AQg-5N-F3J"/>
+                        <outletCollection property="allButtons" destination="3l2-SW-M1n" id="IOF-ey-Sw5"/>
+                        <outletCollection property="allButtons" destination="yxj-Vk-Dpb" id="BXQ-Rw-lNi"/>
+                        <outletCollection property="allButtons" destination="Zdg-hL-lMw" id="rYo-a9-8dZ"/>
+                        <outletCollection property="allButtons" destination="X0S-BZ-dnM" id="hkz-PI-Zrt"/>
+                        <outletCollection property="allButtons" destination="H66-ES-aT6" id="bj2-x9-4XJ"/>
+                        <outletCollection property="allButtons" destination="acf-pR-Wdr" id="PiU-X9-FKo"/>
+                        <outletCollection property="allButtons" destination="ydS-i8-QAD" id="p7t-Y6-0w2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

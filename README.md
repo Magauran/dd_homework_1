@@ -5,7 +5,7 @@
 This is a simple calculator with a colorful design.
 
 #### TODO:
-- [ ] New color of the buttons in the pressed state
+- [x] New color of the buttons in the pressed state
 - [ ] List of recent calculations
 - [ ] Rounding of real numbers
 - [ ] Error handling
