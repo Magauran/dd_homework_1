@@ -22,7 +22,7 @@
                             
 - (NSDictionary *) operationDictionary {
     id priorities[] = {@2, @2, @3, @3, @0, @1};
-    id operations[] = { @"+", @"−", @"×", @"÷", @"(", @")"};
+    id operations[] = {@"+", @"−", @"×", @"÷", @"(", @")"};
     NSUInteger count = sizeof(priorities) / sizeof(id);
 
     if (!_operationDictionary) {
@@ -89,8 +89,6 @@
     NSNumber *operandObject = [NSNumber numberWithDouble:operand];
     [self.programStack addObject:operandObject];
 }
-
-// 3 x (3 x 9 / 9) error
 
 - (void) pushOperation:(NSString*) operation {
     // http://5fan.ru/wievjob.php?id=6225

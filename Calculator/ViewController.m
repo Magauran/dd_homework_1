@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "Calculator.h"
-//@import QuartzCore;
 
 @interface ViewController ()
 @property(strong, nonatomic) Calculator *calculator;
